@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here --> 
+  <div class="container">
+    <table style="width: 100%;">
+      <tr id="row0" class="rowColor" value="9">
+        <td>9AM</td>
+        <td>
+          <input type="text" id="9AMinput" class="form-control" placeholder="" />
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn9AM" >
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row1" class="rowColor" value="10">
+        <td>10AM</td>
+        <td>
+          <input type="text"  id="10AMinput" class="form-control" placeholder=""/>
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn10AM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row2"class="rowColor" value="11">
+        <td>11AM</td>
+        <td>
+          <input type="text" id="11AMinput" class="form-control" placeholder=""/>
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn11AM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row3" class="rowColor" value="12">
+        <td>12PM</td>
+        <td>
+          <input type="text" id="12PMinput" class="form-control" placeholder="" />
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn12PM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row4" class="rowColor" value="1PM">
+        <td>1PM</td>
+        <td>
+          <input type="text" id="1PMinput" class="form-control" placeholder=""/>
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn1PM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row5" class="rowColor" value="2PM"> 
+        <td>2PM</td>
+        <td>
+          <input type="text" id="2PMinput" class="form-control" placeholder=""/>
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn2PM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row6" class="rowColor" value="3PM"> 
+        <td>3PM</td>
+        <td>
+          <input type="text" id="3PMinput" class="form-control" placeholder=""/>
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn3PM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row7" class="rowColor" value="4PM">
+        <td>4PM</td>
+        <td>
+          <input type="text" id="4PMinput" class="form-control" placeholder="">
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn4PM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+      <tr id="row8" class="rowColor" value="5PM">
+        <td>5PM</td>
+        <td>
+          <input type="text" id="5PMinput" class="form-control" placeholder="">
+        </td>
+        <td>
+          <button type="button" class= "saveBtn" id="saveBtn5PM">
+            <i class="fas fa-save"></i>
+          </button>
+        </td>
+      </tr>
+    </table>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script1.js"></script>
+  </body>
+</html>
